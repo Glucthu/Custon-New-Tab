@@ -1,0 +1,17 @@
+{
+  "name": "Custom Newtab",
+  "version": "0.0.1",
+  "description": "Set a custom newtab page from source",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "manifest_version": 3,
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "permissions": ["storage"],
+  "author": {
+    "name": "Glucthu",
+    "url": "https://github.com/Glucthu"
+  }
+}
